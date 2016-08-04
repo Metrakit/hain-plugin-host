@@ -1,0 +1,30 @@
+{
+  "name": "hain-plugin-host",
+  "version": "0.0.1",
+  "description": "hain plugin for easily add a new host to your hosts file",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metrakit/hain-plugin-host.git"
+  },
+  "author": "Jordane JOUFFROY",
+  "license": "MIT",
+  "keywords": [
+    "hain0"
+  ],
+  "bugs": {
+    "url": "https://github.com/metrakit/hain-plugin-host/issues"
+  },
+  "homepage": "https://github.com/metrakit/hain-plugin-host",
+  "dependencies": {
+    "lodash": "^4.6.1",
+    "validator": "^5.5.0"
+  },
+  "hain": {
+    "prefix": "/host",
+    "usage": "/host IP domain",
+    "icon": "/logo.png",
+    "redirect": "/host "
+  }
+}
